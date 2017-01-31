@@ -30,7 +30,7 @@ namespace Problem13
             {
                 equal = false;
             }
-            Console.WriteLine(equal);
+            Console.WriteLine(equal.ToString().ToLower()); //that makes the output from 'F'alse to 'f'alse
         }
     }
 }
